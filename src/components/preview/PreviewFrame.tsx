@@ -153,7 +153,7 @@ export function PreviewFrame() {
   return (
     <iframe
       ref={iframeRef}
-      className="w-full h-full border-0 bg-white"
+      className="w-full h-full border-0 bg-white block"
       title="Preview"
     />
   );

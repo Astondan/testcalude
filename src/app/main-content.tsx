@@ -75,9 +75,9 @@ export function MainContent({ user, project }: MainContentProps) {
                 </div>
 
                 {/* Content Area */}
-                <div className="flex-1 overflow-hidden bg-neutral-50">
+                <div className="flex-1 overflow-hidden bg-neutral-50 flex flex-col">
                   {activeView === "preview" ? (
-                    <div className="h-full bg-white">
+                    <div className="flex-1 bg-white min-h-0">
                       <PreviewFrame />
                     </div>
                   ) : (
